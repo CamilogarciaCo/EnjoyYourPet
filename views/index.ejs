@@ -7,30 +7,30 @@
     <link rel="stylesheet" href="/css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon">
+    <!--<script src="/js/publicity.js"></script>-->
     <title>Tu mascota</title>
 </head>
 <body>
     
     <%- include("./partials/header.ejs") %>
 
+    <!-- <%- include("./partials/menuLeft.ejs") %>--> 
 
-
-  <!-- <%- include("./partials/menuLeft.ejs") %>--> 
+    <div id="adlateral1"></div>
+    <div id="adlateral2"></div>
 
     <div class="main">
-        <h1>El mundo de tu mascota.</h1>
-        <div>
-            <p>El lugar perfecto de tu mascota 
-                donde puedes encontrar todo para tu concentido de la casa.</p>
+        <img src="/img/fondo.jpeg" alt="" class="bg-img">
+        <div class="position">
+            <h1>El mundo de tu mascota.</h1>
+            <p>El lugar perfecto para tu mascota.</p>
         </div>
-    </div>
-    <section>
-        <div>
-            <div class="cont-u"><i class="fa-solid fa-dog-leashed"></i></div>
-            <div class="cont-u"><i class="fa-solid fa-cat"></i></div>
-        </div>
-        
-    </section>
+        <section>
+            <h2></h2>
     
+        </section>
+    </div>
+    
+    <%- include("./partials/footer.ejs") %>
 </body>
 </html>
