@@ -1,8 +1,8 @@
 //// tener instalado node////
 /// correr en terminal del proyecto
 npm init --y
-npm install nodemon --save-dev
 npm install express --save
+npm install nodemon --save-dev
 npm install ejs////
 
 

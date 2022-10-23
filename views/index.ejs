@@ -7,30 +7,54 @@
     <link rel="stylesheet" href="/css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/form.css">
     <!--<script src="/js/publicity.js"></script>-->
     <title>Tu mascota</title>
 </head>
 <body>
     
     <%- include("./partials/header.ejs") %>
-
-    <!-- <%- include("./partials/menuLeft.ejs") %>--> 
-
+    
     <div id="adlateral1"></div>
     <div id="adlateral2"></div>
 
     <div class="main">
-        <img src="/img/fondo.jpeg" alt="" class="bg-img">
+        
         <div class="position">
             <h1>El mundo de tu mascota.</h1>
             <p>El lugar perfecto para tu mascota.</p>
         </div>
-        <section>
-            <h2></h2>
-    
-        </section>
+       <div class="contenedor-slider">
+            <div class="slider">
+                <div class="contenido-slider">
+                    <section>
+                        <img src="/img/img001.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                    </section>
+                </div>
+                <div class="contenido-slider">
+                    <section>
+                        <img src="/img/img002.jpg" alt="">
+                        <h2>¿Nuestros perros tienen gustos y distingue sabores?</h2>
+                    </section>
+                </div>
+                <div class="contenido-slider">
+                    <section>
+                        <img src="/img/img003.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                    </section>
+                </div>
+                <div class="contenido-slider">
+                    <section>
+                        <img src="/img/img001.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                    </section>
+                </div>
+            </div>
+       </div>
     </div>
     
     <%- include("./partials/footer.ejs") %>
+    <script src="/js/slider.js"></script>
 </body>
-</html>
+</html>     
